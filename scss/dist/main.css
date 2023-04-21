@@ -25,6 +25,19 @@ nav .icons button {
   border-style: none;
 }
 
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;

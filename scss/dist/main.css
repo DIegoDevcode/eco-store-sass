@@ -69,6 +69,9 @@ article button {
   color: white;
   font-size: 1em;
 }
+article button:hover {
+  transform: scale(1.1);
+}
 article img {
   width: 25vw;
   border-radius: 19px;
@@ -77,21 +80,21 @@ article img {
 section {
   width: 100%;
   height: auto;
-  padding: 55px;
+  padding: 30px;
 }
 section h2 {
   color: #7C6A0A;
   font-size: 1.7em;
 }
-section .healthcare, section section .about-us, section .furniture {
+section .healthcare, section section .about-us, section section .gallery .gallery-images, .gallery section section .gallery-images, section .furniture {
   padding-bottom: 60px;
 }
-section .healthcare h2, section section .about-us h2, section .furniture h2 {
+section .healthcare h2, section section .about-us h2, section section .gallery .gallery-images h2, .gallery section section .gallery-images h2, section .furniture h2 {
   font-weight: 300;
   padding-bottom: 60px;
 }
-section .healthcare .card-section, section section .about-us .card-section, section .furniture .card-section {
-  width: auto;
+section .healthcare .card-section, section section .about-us .card-section, section section .gallery .gallery-images .card-section, .gallery section section .gallery-images .card-section, section .furniture .card-section {
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -99,9 +102,9 @@ section .healthcare .card-section, section section .about-us .card-section, sect
   align-items: center;
   flex-wrap: wrap;
   column-gap: 200px;
-  row-gap: 80px;
+  row-gap: 70px;
 }
-section .healthcare .card-section .product-card, section section .about-us .card-section .product-card, section .furniture .card-section .product-card {
+section .healthcare .card-section .product-card, section section .about-us .card-section .product-card, section section .gallery .gallery-images .card-section .product-card, .gallery section section .gallery-images .card-section .product-card, section .furniture .card-section .product-card {
   width: 14vw;
   height: 45vh;
   background-color: #FFDAC6;
@@ -109,25 +112,25 @@ section .healthcare .card-section .product-card, section section .about-us .card
   padding: 20px;
   border-radius: 8px;
 }
-section .healthcare .card-section .product-card .icon, section section .about-us .card-section .product-card .icon, section .furniture .card-section .product-card .icon {
+section .healthcare .card-section .product-card .icon, section section .about-us .card-section .product-card .icon, section section .gallery .gallery-images .card-section .product-card .icon, .gallery section section .gallery-images .card-section .product-card .icon, section .furniture .card-section .product-card .icon {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-bottom: 12px;
 }
-section .healthcare .card-section .product-card .icon svg, section section .about-us .card-section .product-card .icon svg, section .furniture .card-section .product-card .icon svg {
+section .healthcare .card-section .product-card .icon svg, section section .about-us .card-section .product-card .icon svg, section section .gallery .gallery-images .card-section .product-card .icon svg, .gallery section section .gallery-images .card-section .product-card .icon svg, section .furniture .card-section .product-card .icon svg {
   width: 28px;
   height: 28px;
   color: #7C6A0A;
 }
-section .healthcare .card-section .product-card .product-image, section section .about-us .card-section .product-card .product-image, section .furniture .card-section .product-card .product-image {
+section .healthcare .card-section .product-card .product-image, section section .about-us .card-section .product-card .product-image, section section .gallery .gallery-images .card-section .product-card .product-image, .gallery section section .gallery-images .card-section .product-card .product-image, section .furniture .card-section .product-card .product-image {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section .healthcare .card-section .product-card .product-image img, section section .about-us .card-section .product-card .product-image img, section .furniture .card-section .product-card .product-image img {
+section .healthcare .card-section .product-card .product-image img, section section .about-us .card-section .product-card .product-image img, section section .gallery .gallery-images .card-section .product-card .product-image img, .gallery section section .gallery-images .card-section .product-card .product-image img, section .furniture .card-section .product-card .product-image img {
   width: 12vw;
   height: 30vh;
   object-fit: cover;
@@ -137,28 +140,46 @@ section .furniture .card-section .product-card {
   background-color: #BABD8D;
   color: white;
 }
-section section .about-us h2 {
+section section .about-us h2, section section .gallery .gallery-images h2, .gallery section section .gallery-images h2 {
   font-weight: bold;
 }
-section .mision-section {
+section .mission-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-section .mision-section .earth, section .mision-section .innovation {
+section .mission-section .earth, section .mission-section .innovation {
   display: flex;
   gap: 40px;
   width: 30vw;
   color: #E86424;
 }
-section .mision-section .earth img, section .mision-section .innovation img {
+section .mission-section .earth img, section .mission-section .innovation img {
   object-fit: contain;
 }
-section .mision-section .earth p, section .mision-section .innovation p {
+section .mission-section .earth p, section .mission-section .innovation p {
   align-items: center;
   font-size: 1.5em;
 }
+.gallery .gallery-images {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .gallery-images img {
+  aspect-ratio: 1/1;
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  transition: transform 0.2s;
+}
+.gallery .gallery-images img:hover {
+  transform: scale(1.1);
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;

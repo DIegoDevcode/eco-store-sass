@@ -93,7 +93,7 @@ article {
 }
 
 section {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 30px;
 
@@ -198,10 +198,12 @@ section{
         width: 90%;
         display: flex;
         justify-content: space-between;
+        box-sizing: border-box;
+        padding-left: 10px;
         img{
             aspect-ratio: 1/1;
             height: 100%;
-            width: 30%;
+            max-width: 25%;
             object-fit: cover;
             object-position: center;
             border-radius: 16px;

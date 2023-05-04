@@ -78,7 +78,7 @@ article img {
 }
 
 section {
-  width: 100%;
+  width: 90%;
   height: auto;
   padding: 30px;
 }
@@ -166,11 +166,13 @@ section .mission-section .earth p, section .mission-section .innovation p {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 10px;
 }
 .gallery .gallery-images img {
   aspect-ratio: 1/1;
   height: 100%;
-  width: 30%;
+  max-width: 25%;
   object-fit: cover;
   object-position: center;
   border-radius: 16px;

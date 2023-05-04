@@ -197,7 +197,8 @@ section .mission-section .earth p, section .mission-section .innovation p {
   align-items: center;
   padding-bottom: 50px;
 }
-.location h3, .location p {
+.location h3,
+.location p {
   font-size: 1.4em;
 }
 

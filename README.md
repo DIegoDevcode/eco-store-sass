@@ -12,17 +12,20 @@ Nuestra tienda en línea cuenta con las siguientes características:
 - **Información detallada del producto**: proporcionamos descripciones detalladas y especificaciones para cada uno de nuestros productos, para que puedas tomar una decisión informada antes de comprar.
 
 ## Construido:
+
 Este proyecto esta realizado con:
 -  ![image](https://user-images.githubusercontent.com/105946956/182460664-ddb3433e-e087-40eb-bb4e-15329b052012.png)
 -  ![image](https://user-images.githubusercontent.com/105946956/182460929-8f176a0a-8b3f-4260-a858-c036ff4714a9.png)
 -  ![image](https://user-images.githubusercontent.com/105946956/232613271-949b1912-e606-4314-b193-8e4e7e9f7791.png)
 
 ## Cómo empezar
-Para empezar a navegar por nuestra tienda en línea, simplemente haz lo siguiente:
+
+Para visitar este proyecto en linea ingresa al siguiente enlace:
 https://eco-store-sass.vercel.app/
+
 ## Cómo contribuir
 
-Nos encantaría recibir tus comentarios y sugerencias para mejorar nuestra tienda y hacerla aún más respetuosa con el medio ambiente. Si tienes alguna idea o sugerencia, no dudes en ponerte en contacto con nosotros a través de nuestra sección de contacto.
+Me encantaria recibir tu feedback para saber como puedo mejorar aun mas este proyecto.
 
 ## Autor
 
